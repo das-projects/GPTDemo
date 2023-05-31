@@ -1,0 +1,12 @@
+langchain
+openai
+streamlit
+pypdf
+faiss-cpu
+chromadb
+tiktoken
+pycryptodome
+cohere
+docx2txt
+pillow
+tenacity
