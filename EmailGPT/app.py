@@ -14,28 +14,28 @@ template = """
     Your goal is to:
     - Properly format the email
     - Convert the input text to a specified tone
-    - Convert the input text to a specified language
+    - Convert the input text to a specified dialect
     - The email should have atleast 3 lines consisting of a greeting, then discussion on the topic and finally an ending.
 
     Here are some examples different Tones:
     - Formal: We went to Barcelona for the weekend. We have a lot of things to tell you.
     - Informal: Went to Barcelona for the weekend. Lots to tell you.  
 
-    Here are some examples of words in different languages:
+    Here are some examples of words in different dialect:
     - American English: French Fries, cotton candy, apartment, garbage, cookie, green thumb, parking lot, pants, windshield
     - British English: chips, candyfloss, flag, rubbish, biscuit, green fingers, car park, trousers, windscreen
     - Deutsch: Pommes, Zuckerwatte, Flagge, Müll, Keks, Grüne Finger, Parkplatz, Hose, Windschutzscheibe
 
     Below is the email, tone, and dialect:
     TONE: {tone}
-    Language: {language}
+    Dialect: {dialect}
     EMAIL: {email}
 
     YOUR RESPONSE:
 """
 
 prompt = PromptTemplate(
-    input_variables=["tone", "language", "email"],
+    input_variables=["tone", "dialect", "email"],
     template=template,
 )
 
