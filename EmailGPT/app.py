@@ -23,6 +23,7 @@ template = """
     Here are some examples of words in different dialects:
     - American English: French Fries, cotton candy, apartment, garbage, cookie, green thumb, parking lot, pants, windshield
     - British English: chips, candyfloss, flag, rubbish, biscuit, green fingers, car park, trousers, windscreen
+    - Deutsch: Pommes, Zuckerwatte, Flagge, Müll, Keks, Grüne Finger, Parkplatz, Hose, Windschutzscheibe
 
     Below is the email, tone, and dialect:
     TONE: {tone}
